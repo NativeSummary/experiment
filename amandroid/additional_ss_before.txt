@@ -1,0 +1,4 @@
+<org.example.NativeSummaryFuncs: java.lang.String strdup(java.lang.String)> -> _SINK_
+<org.example.NativeSummaryFuncs: int open(java.lang.String,long,long)> -> _SINK_
+<org.example.NativeSummaryFuncs: int write(int,java.lang.String,long)> -> _SINK_
+<org.example.NativeSummaryFuncs: int write(long,java.lang.String,java.lang.Object)> -> _SINK_

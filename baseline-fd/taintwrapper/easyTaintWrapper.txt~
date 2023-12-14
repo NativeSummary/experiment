@@ -1,0 +1,2 @@
+<org.example.NativeSummaryFuncs: java.lang.String strdup(java.lang.String)>
+<org.example.NativeSummaryFuncs: java.lang.String GetByteArrayElements(java.lang.Object,byte[],java.lang.Object)>

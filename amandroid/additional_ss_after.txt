@@ -1,0 +1,4 @@
+Lorg/example/NativeSummaryFuncs;.write:(ILjava/lang/String;J)I -> _SINK_ 
+Lorg/example/NativeSummaryFuncs;.strdup:(Ljava/lang/String;)Ljava/lang/String; -> _SINK_ 
+Lorg/example/NativeSummaryFuncs;.open:(Ljava/lang/String;JJ)I -> _SINK_ 
+Lorg/example/NativeSummaryFuncs;.write:(JLjava/lang/String;Ljava/lang/Object;)I -> _SINK_ 

@@ -1,0 +1,1868 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/root/Argus-SAF/binaries/argus-saf-3.2.1-SNAPSHOT-assembly.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+E0220 06:36:17.639229608     806 server_chttp2.cc:38]        {"created":"@1676874977.639214157","description":"Only 1 addresses added out of total 2 resolved","file":"src/core/ext/transport/chttp2/server/chttp2_server.cc","file_line":311,"referenced_errors":[{"created":"@1676874977.639211607","description":"OS Error","errno":97,"file":"src/core/lib/iomgr/socket_utils_common_posix.cc","file_line":256,"os_error":"Address family not supported by protocol","syscall":"socket","target_address":"[::1]:50051"}]}
+INFO    | 2023-02-20 06:36:17,640 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer started.[0m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/root/Argus-SAF/binaries/argus-saf-3.2.1-SNAPSHOT-assembly.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+INFO    | 2023-02-20 06:36:34,467 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "4608220741f831899e90d71e69200f3bb21639cc80d0ce48ab175373790482f2"
+[0m
+ERROR   | 2023-02-20 06:36:34,519 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:36:34,547 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "4608220741f831899e90d71e69200f3bb21639cc80d0ce48ab175373790482f2"
+symbol: "Java_org_arguslab_native_1nosource_MainActivity_getData"
+[0m
+INFO    | 2023-02-20 06:36:34,586 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "4608220741f831899e90d71e69200f3bb21639cc80d0ce48ab175373790482f2"
+symbol: "Java_org_arguslab_native_1nosource_MainActivity_getData"
+[0m
+INFO    | 2023-02-20 06:36:34,632 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "d3238b61d6b600c2a0ed9b8e35b4bac30e399700ac4270577a0051d65ad5431d"
+component_name: "org.arguslab.native_nosource.MainActivity"
+depth: 3
+so_digest: "4608220741f831899e90d71e69200f3bb21639cc80d0ce48ab175373790482f2"
+jni_func: "Java_org_arguslab_native_1nosource_MainActivity_getData"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_nosource"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "getData"
+  proto {
+    return_java_type {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:36:34,758 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewStringUTF[0m
+INFO    | 2023-02-20 06:36:34,764 | [33mnativedroid.jni_native_interface[0m | [33mString: NO SOURCE[0m
+INFO    | 2023-02-20 06:36:34,777 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:36:34,777 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_nosource/MainActivity;.getData:()Ljava/lang/String;`:
+  ret = "NO SOURCE"@~
+;[0m
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:36:43,917 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "2d75bd19d6b109fa8ae1e9de138d76ba6a6bcd2846e226dcadd2ad13606b8ef0"
+[0m
+ERROR   | 2023-02-20 06:36:43,965 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:36:43,982 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "2d75bd19d6b109fa8ae1e9de138d76ba6a6bcd2846e226dcadd2ad13606b8ef0"
+symbol: "Java_org_arguslab_native_1set_1field_1from_1native_MainActivity_setField"
+[0m
+INFO    | 2023-02-20 06:36:44,028 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "2d75bd19d6b109fa8ae1e9de138d76ba6a6bcd2846e226dcadd2ad13606b8ef0"
+symbol: "Java_org_arguslab_native_1set_1field_1from_1native_MainActivity_setField"
+[0m
+INFO    | 2023-02-20 06:36:44,076 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "07eb4847160d01f5f318a06a032bf31558d189b11f5fb4cf91bebeac3af09d99"
+component_name: "org.arguslab.native_set_field_from_native.MainActivity"
+depth: 3
+so_digest: "2d75bd19d6b109fa8ae1e9de138d76ba6a6bcd2846e226dcadd2ad13606b8ef0"
+jni_func: "Java_org_arguslab_native_1set_1field_1from_1native_MainActivity_setField"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_set_field_from_native"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "setField"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_set_field_from_native"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    return_java_type {
+      class_type {
+        package {
+          name: "native_set_field_from_native"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "Foo"
+      }
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:36:44,179 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:36:44,191 | [33mnativedroid.jni_native_interface[0m | [33mClass: org/arguslab/native_set_field_from_native/Foo[0m
+INFO    | 2023-02-20 06:36:44,217 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:36:44,223 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_set_field_from_native/Foo[0m
+INFO    | 2023-02-20 06:36:44,223 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: <init>[0m
+INFO    | 2023-02-20 06:36:44,223 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()V[0m
+INFO    | 2023-02-20 06:36:44,252 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewObject[0m
+INFO    | 2023-02-20 06:36:44,280 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:36:44,290 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_set_field_from_native/Foo[0m
+INFO    | 2023-02-20 06:36:44,291 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: data[0m
+INFO    | 2023-02-20 06:36:44,291 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:36:44,344 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:36:44,349 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:36:44,378 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:36:44,388 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:36:44,388 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getSystemService[0m
+INFO    | 2023-02-20 06:36:44,389 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/Object;[0m
+INFO    | 2023-02-20 06:36:44,416 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticFieldID[0m
+INFO    | 2023-02-20 06:36:44,426 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:36:44,426 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: TELEPHONY_SERVICE[0m
+INFO    | 2023-02-20 06:36:44,426 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:36:44,528 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticObjectField[0m
+INFO    | 2023-02-20 06:36:44,559 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:36:44,604 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:36:44,610 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:36:44,637 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:36:44,644 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:36:44,645 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getDeviceId[0m
+INFO    | 2023-02-20 06:36:44,645 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:36:44,670 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:36:44,719 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetObjectField[0m
+INFO    | 2023-02-20 06:36:44,741 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:36:44,748 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_set_field_from_native/Foo[0m
+INFO    | 2023-02-20 06:36:44,749 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: index[0m
+INFO    | 2023-02-20 06:36:44,749 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: I[0m
+INFO    | 2023-02-20 06:36:44,779 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetIntField[0m
+INFO    | 2023-02-20 06:36:44,800 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:36:44,826 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:36:44,835 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_set_field_from_native/ComplexData[0m
+INFO    | 2023-02-20 06:36:44,836 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: foo[0m
+INFO    | 2023-02-20 06:36:44,836 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Lorg/arguslab/native_set_field_from_native/Foo;[0m
+INFO    | 2023-02-20 06:36:44,865 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetObjectField[0m
+INFO    | 2023-02-20 06:36:44,886 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectField[0m
+INFO    | 2023-02-20 06:36:44,910 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_set_field_from_native/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_native/ComplexData;)Lorg/arguslab/native_set_field_from_native/Foo; -> _SOURCE_ 1.foo.data[0m
+INFO    | 2023-02-20 06:36:44,910 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_set_field_from_native/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_native/ComplexData;)Lorg/arguslab/native_set_field_from_native/Foo;`:
+  arg:1.foo = org.arguslab.native_set_field_from_native.Foo@~
+  ret = arg:1.foo
+;[0m
+Taint path:
+api_source: #L019c3a.  call temp:= `setField`(v2, v0) @signature `Lorg/arguslab/native_set_field_from_native/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_native/ComplexData;)Lorg/arguslab/native_set_field_from_native/Foo;` @kind virtual;
+	-> api_sink: #L019c56.  call temp:= `d`(v1, v0) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L019c3a.  call temp:= `setField`(v2, v0) @signature `Lorg/arguslab/native_set_field_from_native/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_native/ComplexData;)Lorg/arguslab/native_set_field_from_native/Foo;` @kind virtual;
+	-> #L019c4e.  call temp:= `getData`(v0) @signature `Lorg/arguslab/native_set_field_from_native/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L019c56.  call temp:= `d`(v1, v0) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+Taint path:
+api_source: #L019c3a.  call temp:= `setField`(v2, v0) @signature `Lorg/arguslab/native_set_field_from_native/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_native/ComplexData;)Lorg/arguslab/native_set_field_from_native/Foo;` @kind virtual;
+	-> api_sink: #L019c68.  call temp:= `d`(v0, v2) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L019c3a.  call temp:= `setField`(v2, v0) @signature `Lorg/arguslab/native_set_field_from_native/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_native/ComplexData;)Lorg/arguslab/native_set_field_from_native/Foo;` @kind virtual;
+	-> #L019c4e.  call temp:= `getData`(v0) @signature `Lorg/arguslab/native_set_field_from_native/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L019c56.  call temp:= `d`(v1, v0) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+	-> #L019c60.  call temp:= `getData`(v2) @signature `Lorg/arguslab/native_set_field_from_native/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L019c68.  call temp:= `d`(v0, v2) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:36:55,355 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "87aeff89d22ec9be47dd054e6601662d688ccc5fd15de4f578f6af8224b1cda5"
+[0m
+ERROR   | 2023-02-20 06:36:55,407 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:36:55,421 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "87aeff89d22ec9be47dd054e6601662d688ccc5fd15de4f578f6af8224b1cda5"
+symbol: "Java_org_arguslab_native_1noleak_1array_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:36:55,468 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "87aeff89d22ec9be47dd054e6601662d688ccc5fd15de4f578f6af8224b1cda5"
+symbol: "Java_org_arguslab_native_1noleak_1array_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:36:55,514 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "ebbc691fdcf2e206e61b061459ceb69cfbccec46b03292538c4b7758613a3943"
+component_name: "org.arguslab.native_noleak_array.MainActivity"
+depth: 3
+so_digest: "87aeff89d22ec9be47dd054e6601662d688ccc5fd15de4f578f6af8224b1cda5"
+jni_func: "Java_org_arguslab_native_1noleak_1array_MainActivity_send"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_noleak_array"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+      dimension: 1
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:36:55,623 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectArrayElement[0m
+INFO    | 2023-02-20 06:36:55,700 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:36:55,746 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:36:55,763 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:36:55,763 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_noleak_array/MainActivity;.send:([Ljava/lang/String;)V`:
+;[0m
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:37:05,477 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "b03003123cdf49339137ff3d40664684bedbff9a93078b0ae4860968dba7071e"
+[0m
+ERROR   | 2023-02-20 06:37:05,524 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:37:05,535 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "b03003123cdf49339137ff3d40664684bedbff9a93078b0ae4860968dba7071e"
+symbol: "Java_org_arguslab_native_1heap_1modify_MainActivity_heapModify"
+[0m
+INFO    | 2023-02-20 06:37:05,577 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "b03003123cdf49339137ff3d40664684bedbff9a93078b0ae4860968dba7071e"
+symbol: "Java_org_arguslab_native_1heap_1modify_MainActivity_heapModify"
+[0m
+INFO    | 2023-02-20 06:37:05,637 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "89038ff3b8177e75167457a9eb0008a3c9d35d810964f8e833bf3f7406513ba5"
+component_name: "org.arguslab.native_heap_modify.MainActivity"
+depth: 3
+so_digest: "b03003123cdf49339137ff3d40664684bedbff9a93078b0ae4860968dba7071e"
+jni_func: "Java_org_arguslab_native_1heap_1modify_MainActivity_heapModify"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_heap_modify"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "heapModify"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "content"
+          parent {
+            name: "android"
+          }
+        }
+        name: "Context"
+      }
+    }
+    param_types {
+      class_type {
+        package {
+          name: "native_heap_modify"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "Data"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:37:05,785 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:05,792 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:37:05,825 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:05,835 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:37:05,835 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getSystemService[0m
+INFO    | 2023-02-20 06:37:05,835 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/Object;[0m
+INFO    | 2023-02-20 06:37:05,863 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticFieldID[0m
+INFO    | 2023-02-20 06:37:05,871 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:37:05,872 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: TELEPHONY_SERVICE[0m
+INFO    | 2023-02-20 06:37:05,872 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:05,897 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticObjectField[0m
+INFO    | 2023-02-20 06:37:05,927 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:05,959 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:05,965 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:37:06,013 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:06,022 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:37:06,022 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getDeviceId[0m
+INFO    | 2023-02-20 06:37:06,022 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:06,049 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:06,093 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:37:06,119 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:37:06,125 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_heap_modify/Data[0m
+INFO    | 2023-02-20 06:37:06,125 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: str[0m
+INFO    | 2023-02-20 06:37:06,125 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:06,153 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetObjectField[0m
+INFO    | 2023-02-20 06:37:06,168 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_heap_modify/MainActivity;.heapModify:(Landroid/content/Context;Lorg/arguslab/native_heap_modify/Data;)V -> _SOURCE_ 2.str[0m
+INFO    | 2023-02-20 06:37:06,168 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_heap_modify/MainActivity;.heapModify:(Landroid/content/Context;Lorg/arguslab/native_heap_modify/Data;)V`:
+  arg:2.str = java.lang.String@~
+;[0m
+Taint path:
+api_source: #L1251e2.  call `heapModify`(v1, v0) @signature `Lorg/arguslab/native_heap_modify/MainActivity;.heapModify:(Landroid/content/Context;Lorg/arguslab/native_heap_modify/Data;)V` @kind static;
+	-> api_sink: #L1251f0.  call temp:= `i`(v1, v0) @signature `Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L1251e2.  call `heapModify`(v1, v0) @signature `Lorg/arguslab/native_heap_modify/MainActivity;.heapModify:(Landroid/content/Context;Lorg/arguslab/native_heap_modify/Data;)V` @kind static;
+	-> #L1251f0.  call temp:= `i`(v1, v0) @signature `Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+
+INFO    | 2023-02-20 06:37:15,831 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f4694cdf6a5075ae450af58f0bb073504e9ddec295f4dfa44aff34db7aa16cab"
+symbol: "android_main"
+[0m
+INFO    | 2023-02-20 06:37:15,902 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f4694cdf6a5075ae450af58f0bb073504e9ddec295f4dfa44aff34db7aa16cab"
+symbol: "ANativeActivity_onCreate"
+[0m
+INFO    | 2023-02-20 06:37:15,972 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer AnalyseNativeActivity: apk_digest: "f95b9ca010ca16c4059d8d15b21d577e6a8c2976863c3c32d7fbe1f7ed0febb4"
+component_name: "android.app.NativeActivity"
+so_digest: "f4694cdf6a5075ae450af58f0bb073504e9ddec295f4dfa44aff34db7aa16cab"
+[0m
+INFO    | 2023-02-20 06:37:16,705 | [32mnativedroid[0m | [32mANativeActivity_onCreate[0m
+INFO    | 2023-02-20 06:37:16,735 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,709 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,721 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,731 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,742 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,756 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,768 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,780 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,792 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,803 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,815 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,824 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,836 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,851 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,865 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,879 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:17,894 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:18,179 | [36mnativedroid.jni_invoke_interface[0m | [36mJNIInvokeInterface SimProcedure: AttachCurrentThread[0m
+INFO    | 2023-02-20 06:37:18,347 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:18,354 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:37:18,390 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:18,401 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:37:18,401 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getSystemService[0m
+INFO    | 2023-02-20 06:37:18,401 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/Object;[0m
+INFO    | 2023-02-20 06:37:18,430 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticFieldID[0m
+INFO    | 2023-02-20 06:37:18,437 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:37:18,437 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: TELEPHONY_SERVICE[0m
+INFO    | 2023-02-20 06:37:18,437 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:18,466 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticObjectField[0m
+INFO    | 2023-02-20 06:37:18,498 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:18,537 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:18,543 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:37:18,570 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:18,577 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:37:18,578 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getDeviceId[0m
+INFO    | 2023-02-20 06:37:18,578 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:18,607 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:18,674 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:37:18,700 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:18,734 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:18,868 | [36mAnnotationBasedAnalysis[0m | [36mFound taint in function Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V.[0m
+INFO    | 2023-02-20 06:37:18,891 | [36mAnnotationBasedAnalysis[0m | [36mRegistered Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V as taint.[0m
+INFO    | 2023-02-20 06:37:18,909 | [32mnativedroid[0m | [32m[Total Instructions] 868[0m
+Taint path:
+api_source: Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+	-> : Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+Entry@Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+INFO    | 2023-02-20 06:37:27,920 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "f2044eaee689188fa87d3c39628e5c4f72cf40f37e5cd75cb1d8c6d68e2700f7"
+[0m
+ERROR   | 2023-02-20 06:37:27,972 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:37:27,984 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f2044eaee689188fa87d3c39628e5c4f72cf40f37e5cd75cb1d8c6d68e2700f7"
+symbol: "Java_org_arguslab_icc_1nativetojava_MainActivity_sendIntent"
+[0m
+INFO    | 2023-02-20 06:37:28,035 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f2044eaee689188fa87d3c39628e5c4f72cf40f37e5cd75cb1d8c6d68e2700f7"
+symbol: "Java_org_arguslab_icc_1nativetojava_MainActivity_sendIntent"
+[0m
+INFO    | 2023-02-20 06:37:28,083 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "748805123428e5357160139d29a98610164ffc41e4f149dc84782543af93bf65"
+component_name: "org.arguslab.icc_nativetojava.MainActivity"
+depth: 3
+so_digest: "f2044eaee689188fa87d3c39628e5c4f72cf40f37e5cd75cb1d8c6d68e2700f7"
+jni_func: "Java_org_arguslab_icc_1nativetojava_MainActivity_sendIntent"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "icc_nativetojava"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "sendIntent"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:37:28,194 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:28,202 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Intent[0m
+INFO    | 2023-02-20 06:37:28,231 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:28,235 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Intent[0m
+INFO    | 2023-02-20 06:37:28,235 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: <init>[0m
+INFO    | 2023-02-20 06:37:28,235 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()V[0m
+INFO    | 2023-02-20 06:37:28,475 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewObject[0m
+INFO    | 2023-02-20 06:37:28,503 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:28,516 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Intent[0m
+INFO    | 2023-02-20 06:37:28,516 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: setClassName[0m
+INFO    | 2023-02-20 06:37:28,517 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;[0m
+INFO    | 2023-02-20 06:37:28,541 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewStringUTF[0m
+INFO    | 2023-02-20 06:37:28,547 | [33mnativedroid.jni_native_interface[0m | [33mString: org.arguslab.icc_nativetojava[0m
+INFO    | 2023-02-20 06:37:28,572 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewStringUTF[0m
+INFO    | 2023-02-20 06:37:28,578 | [33mnativedroid.jni_native_interface[0m | [33mString: org.arguslab.icc_nativetojava.FooActivity[0m
+INFO    | 2023-02-20 06:37:28,607 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:28,648 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:28,660 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Intent[0m
+INFO    | 2023-02-20 06:37:28,660 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: putExtra[0m
+INFO    | 2023-02-20 06:37:28,661 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;[0m
+INFO    | 2023-02-20 06:37:28,684 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewStringUTF[0m
+INFO    | 2023-02-20 06:37:28,686 | [33mnativedroid.jni_native_interface[0m | [33mString: data[0m
+INFO    | 2023-02-20 06:37:28,716 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:28,743 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:28,748 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:37:28,773 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:28,781 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:37:28,781 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: startActivity[0m
+INFO    | 2023-02-20 06:37:28,781 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Landroid/content/Intent;)V[0m
+INFO    | 2023-02-20 06:37:28,808 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallVoidMethod[0m
+INFO    | 2023-02-20 06:37:28,821 | [33mnativedroid.jni_native_interface[0m | [33mStart Component: org.arguslab.icc_nativetojava.FooActivity, extra: {'data': JstringAnnotation {
+  Source: arg1
+  Heap: arg:1
+  Type: java/lang/String
+  Field Info: {'base_annotation': None, 'field_name': None, 'is_field': False}
+  Array Info: {'base_annotation': None, 'element_index': None, 'is_element': False}
+  Taint Info: {'taint_type': ['_SOURCE_', '_ARGUMENT_'], 'source_kind': 'api_source', 'taint_info': ['SENSITIVE_INFO'], 'sink_kind': None, 'is_taint': True}
+  ICC Info: {'is_icc': False, 'activity_name': None, 'extra': None}
+}}[0m
+INFO    | 2023-02-20 06:37:28,836 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:37:28,837 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/icc_nativetojava/MainActivity;.sendIntent:(Ljava/lang/String;)V`:
+;[0m
+Taint path:
+api_source: #L11a682.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L11a614.  call temp:= `i`(v2, v1) @signature `Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L11a682.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L11a68a.  call `sendIntent`(v2, v0) @signature `Lorg/arguslab/icc_nativetojava/MainActivity;.sendIntent:(Ljava/lang/String;)V` @kind virtual;
+	-> #L11a5f0.  call temp:= `getStringExtra`(v1, v0) @signature `Landroid/content/Intent;.getStringExtra:(Ljava/lang/String;)Ljava/lang/String;` @kind virtual;
+	-> #L11a5f8.  call temp:= `append`(v2, v1) @signature `Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;` @kind virtual;
+	-> #L11a602.  call temp:= `append`(v2, v1) @signature `Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;` @kind virtual;
+	-> #L11a608.  call temp:= `toString`(v2) @signature `Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;` @kind virtual;
+	-> #L11a614.  call temp:= `i`(v2, v1) @signature `Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:37:37,442 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+[0m
+ERROR   | 2023-02-20 06:37:37,491 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:37:37,502 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+symbol: "Java_org_arguslab_native_1complexdata_MainActivity_send2"
+[0m
+INFO    | 2023-02-20 06:37:37,555 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+symbol: "Java_org_arguslab_native_1complexdata_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:37:37,602 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+symbol: "Java_org_arguslab_native_1complexdata_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:37:37,648 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "66fcda1dc69debe729815cb73896f28a867b71f7e2c965251914baf28bded76d"
+component_name: "org.arguslab.native_complexdata.MainActivity"
+depth: 3
+so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+jni_func: "Java_org_arguslab_native_1complexdata_MainActivity_send"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_complexdata"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_complexdata"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:37:37,754 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:37:37,780 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:37,792 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_complexdata/ComplexData[0m
+INFO    | 2023-02-20 06:37:37,792 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getData[0m
+INFO    | 2023-02-20 06:37:37,792 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:37,818 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:37,914 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:37:37,938 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:37,961 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:37,981 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_complexdata/MainActivity;.send:(Lorg/arguslab/native_complexdata/ComplexData;)V -> _SINK_ 1.data[0m
+INFO    | 2023-02-20 06:37:37,982 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_complexdata/MainActivity;.send:(Lorg/arguslab/native_complexdata/ComplexData;)V`:
+;[0m
+INFO    | 2023-02-20 06:37:38,005 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+symbol: "Java_org_arguslab_native_1complexdata_MainActivity_send2"
+[0m
+INFO    | 2023-02-20 06:37:38,054 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "66fcda1dc69debe729815cb73896f28a867b71f7e2c965251914baf28bded76d"
+component_name: "org.arguslab.native_complexdata.MainActivity"
+depth: 3
+so_digest: "51fe1d9aeecc55f3e03050fb460154501b119aa9f18a18246a8ec062f1569ccb"
+jni_func: "Java_org_arguslab_native_1complexdata_MainActivity_send2"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_complexdata"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send2"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_complexdata"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:37:38,158 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:37:38,184 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:37:38,194 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_complexdata/ComplexData[0m
+INFO    | 2023-02-20 06:37:38,194 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getOther[0m
+INFO    | 2023-02-20 06:37:38,194 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:37:38,221 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:37:38,278 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:37:38,302 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:38,326 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:38,345 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_complexdata/MainActivity;.send2:(Lorg/arguslab/native_complexdata/ComplexData;)V -> _SINK_ 1.other[0m
+INFO    | 2023-02-20 06:37:38,345 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_complexdata/MainActivity;.send2:(Lorg/arguslab/native_complexdata/ComplexData;)V`:
+;[0m
+Taint path:
+api_source: #L01d86e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01d890.  call `send`(v0) @signature `Lorg/arguslab/native_complexdata/MainActivity;.send:(Lorg/arguslab/native_complexdata/ComplexData;)V` @kind static;
+#L01d86e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01d880.  call `setData`(v0, v2) @signature `Lorg/arguslab/native_complexdata/ComplexData;.setData:(Ljava/lang/String;)V` @kind virtual;
+	-> #L01d88a.  call `setOther`(v0, v2) @signature `Lorg/arguslab/native_complexdata/ComplexData;.setOther:(Ljava/lang/String;)V` @kind virtual;
+	-> #L01d890.  call `send`(v0) @signature `Lorg/arguslab/native_complexdata/MainActivity;.send:(Lorg/arguslab/native_complexdata/ComplexData;)V` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:37:46,946 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "0b89cf817c35555b853fc90dadd7848dbfc2fe5b9f4b476254de74f83206c188"
+[0m
+INFO    | 2023-02-20 06:37:46,996 | [34mRegisterNativeMethods[0m | [34mDynamic register resolution begins.[0m
+INFO    | 2023-02-20 06:37:47,057 | [36mnativedroid.jni_invoke_interface[0m | [36mJNIInvokeInterface SimProcedure: GetEnv[0m
+INFO    | 2023-02-20 06:37:47,126 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:37:47,138 | [33mnativedroid.jni_native_interface[0m | [33mClass: org/arguslab/native_dynamic_register_multiple/MainActivity[0m
+INFO    | 2023-02-20 06:37:47,199 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: RegisterNatives[0m
+WARNING | 2023-02-20 06:37:47,200 | [34mangr.storage.paged_memory[0m | [34mNothing left of the memory object to store in SimPage.[0m
+INFO    | 2023-02-20 06:37:47,391 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "de18743386f677219d6969ece542b65dabf99fc05a9c9d96a39cde04575533ed"
+component_name: "org.arguslab.native_dynamic_register_multiple.MainActivity"
+depth: 3
+so_digest: "0b89cf817c35555b853fc90dadd7848dbfc2fe5b9f4b476254de74f83206c188"
+addr: 1965
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_dynamic_register_multiple"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:37:47,518 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:37:47,543 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:47,572 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:47,592 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_dynamic_register_multiple/MainActivity;.send:(Ljava/lang/String;)V -> _SINK_ 1[0m
+INFO    | 2023-02-20 06:37:47,592 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_dynamic_register_multiple/MainActivity;.send:(Ljava/lang/String;)V`:
+;[0m
+Taint path:
+api_source: #L01f3ee.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01f3f6.  call `send`(v2) @signature `Lorg/arguslab/native_dynamic_register_multiple/MainActivity;.send:(Ljava/lang/String;)V` @kind static;
+#L01f3ee.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01f3f6.  call `send`(v2) @signature `Lorg/arguslab/native_dynamic_register_multiple/MainActivity;.send:(Ljava/lang/String;)V` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:37:56,247 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "f4bd0733fc5a63e7dab3da12a1bed310f3c12cd27db7e2a8d5575ed674751531"
+[0m
+ERROR   | 2023-02-20 06:37:56,293 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:37:56,307 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f4bd0733fc5a63e7dab3da12a1bed310f3c12cd27db7e2a8d5575ed674751531"
+symbol: "Java_org_arguslab_native_1leak_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:37:56,353 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f4bd0733fc5a63e7dab3da12a1bed310f3c12cd27db7e2a8d5575ed674751531"
+symbol: "Java_org_arguslab_native_1leak_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:37:56,392 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "e182725280792271f0e261e0d47f406845aa4c5a90af2c269d9080a0251d2c66"
+component_name: "org.arguslab.native_leak.MainActivity"
+depth: 3
+so_digest: "f4bd0733fc5a63e7dab3da12a1bed310f3c12cd27db7e2a8d5575ed674751531"
+jni_func: "Java_org_arguslab_native_1leak_MainActivity_send"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_leak"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:37:56,508 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:37:56,531 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:56,555 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:37:56,573 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_leak/MainActivity;.send:(Ljava/lang/String;)V -> _SINK_ 1[0m
+INFO    | 2023-02-20 06:37:56,573 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_leak/MainActivity;.send:(Ljava/lang/String;)V`:
+;[0m
+Taint path:
+api_source: #L01a412.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01a41a.  call `send`(v2) @signature `Lorg/arguslab/native_leak/MainActivity;.send:(Ljava/lang/String;)V` @kind static;
+#L01a412.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01a41a.  call `send`(v2) @signature `Lorg/arguslab/native_leak/MainActivity;.send:(Ljava/lang/String;)V` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:38:05,323 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "19a53cf3cec2a7a798be5d3ce0816945ca28041f90a51d31a5761383c505e9f8"
+[0m
+ERROR   | 2023-02-20 06:38:05,369 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:38:05,381 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "19a53cf3cec2a7a798be5d3ce0816945ca28041f90a51d31a5761383c505e9f8"
+symbol: "Java_org_arguslab_native_1leak_1array_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:38:05,422 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "19a53cf3cec2a7a798be5d3ce0816945ca28041f90a51d31a5761383c505e9f8"
+symbol: "Java_org_arguslab_native_1leak_1array_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:38:05,468 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "076e37b77f657721a3d556027fbcce3cf2dc48136b92c3ad5e6abc522d8a484b"
+component_name: "org.arguslab.native_leak_array.MainActivity"
+depth: 3
+so_digest: "19a53cf3cec2a7a798be5d3ce0816945ca28041f90a51d31a5761383c505e9f8"
+jni_func: "Java_org_arguslab_native_1leak_1array_MainActivity_send"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_leak_array"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+      dimension: 1
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:38:05,563 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectArrayElement[0m
+INFO    | 2023-02-20 06:38:05,608 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:38:05,630 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:05,658 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:05,685 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_leak_array/MainActivity;.send:([Ljava/lang/String;)V -> _SINK_ 1[0m
+INFO    | 2023-02-20 06:38:05,685 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_leak_array/MainActivity;.send:([Ljava/lang/String;)V`:
+;[0m
+Taint path:
+api_source: #L01f042.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01f058.  call `send`(v1) @signature `Lorg/arguslab/native_leak_array/MainActivity;.send:([Ljava/lang/String;)V` @kind static;
+#L01f042.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01f058.  call `send`(v1) @signature `Lorg/arguslab/native_leak_array/MainActivity;.send:([Ljava/lang/String;)V` @kind static;
+
+INFO    | 2023-02-20 06:38:14,347 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "199b8b1a7b662f6616cb93e2bb4b185fe13dd43452ff85f07a37d1ebd22136a5"
+symbol: "NativeActivity_Entry"
+[0m
+INFO    | 2023-02-20 06:38:14,414 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer AnalyseNativeActivity: apk_digest: "08efb232ffcbc2310951c628ab977b32afbad078d4ee392ebd5b7aff0676008f"
+component_name: "android.app.NativeActivity"
+so_digest: "199b8b1a7b662f6616cb93e2bb4b185fe13dd43452ff85f07a37d1ebd22136a5"
+custom_entry: "NativeActivity_Entry"
+[0m
+INFO    | 2023-02-20 06:38:15,107 | [32mnativedroid[0m | [32mNativeActivity_Entry[0m
+INFO    | 2023-02-20 06:38:15,136 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:15,983 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:15,993 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,003 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,015 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,027 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,039 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,052 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,067 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,080 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,092 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,102 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,114 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,129 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,143 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,155 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,171 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:16,457 | [36mnativedroid.jni_invoke_interface[0m | [36mJNIInvokeInterface SimProcedure: AttachCurrentThread[0m
+INFO    | 2023-02-20 06:38:16,723 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:38:16,731 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:38:16,760 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:38:16,771 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:38:16,771 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getSystemService[0m
+INFO    | 2023-02-20 06:38:16,771 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/Object;[0m
+INFO    | 2023-02-20 06:38:16,798 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticFieldID[0m
+INFO    | 2023-02-20 06:38:16,806 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:38:16,806 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: TELEPHONY_SERVICE[0m
+INFO    | 2023-02-20 06:38:16,806 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:38:16,832 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticObjectField[0m
+INFO    | 2023-02-20 06:38:16,864 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:38:16,902 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:38:16,908 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:38:16,935 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:38:16,942 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:38:16,942 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getDeviceId[0m
+INFO    | 2023-02-20 06:38:16,942 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:38:16,969 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:38:17,042 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:38:17,068 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:17,100 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:17,229 | [36mAnnotationBasedAnalysis[0m | [36mFound taint in function Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V.[0m
+INFO    | 2023-02-20 06:38:17,232 | [36mAnnotationBasedAnalysis[0m | [36mRegistered Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V as taint.[0m
+INFO    | 2023-02-20 06:38:17,249 | [32mnativedroid[0m | [32m[Total Instructions] 868[0m
+Taint path:
+api_source: Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+	-> : Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+Entry@Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:38:26,502 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "f15de78ba264590de3f4207123f10fc529c7473fa3700d655d88e250426e8eca"
+[0m
+ERROR   | 2023-02-20 06:38:26,654 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:38:26,671 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f15de78ba264590de3f4207123f10fc529c7473fa3700d655d88e250426e8eca"
+symbol: "Java_org_arguslab_native_1complexdata_1stringop_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:38:26,819 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f15de78ba264590de3f4207123f10fc529c7473fa3700d655d88e250426e8eca"
+symbol: "Java_org_arguslab_native_1complexdata_1stringop_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:38:26,968 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "48b59f371ea159a06bc5432863b2ed9dca12b29a408cb4c082ea3010ebffd2e0"
+component_name: "org.arguslab.native_complexdata_stringop.MainActivity"
+depth: 3
+so_digest: "f15de78ba264590de3f4207123f10fc529c7473fa3700d655d88e250426e8eca"
+jni_func: "Java_org_arguslab_native_1complexdata_1stringop_MainActivity_send"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_complexdata_stringop"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_complexdata_stringop"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:38:27,402 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:38:27,452 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:38:27,459 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_complexdata_stringop/ComplexData[0m
+INFO    | 2023-02-20 06:38:27,459 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: other[0m
+INFO    | 2023-02-20 06:38:27,459 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:38:27,502 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectField[0m
+INFO    | 2023-02-20 06:38:27,551 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:38:27,574 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:27,598 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:28,419 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_complexdata_stringop/MainActivity;.send:(Lorg/arguslab/native_complexdata_stringop/ComplexData;)V -> _SINK_ 1.other[0m
+INFO    | 2023-02-20 06:38:28,419 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_complexdata_stringop/MainActivity;.send:(Lorg/arguslab/native_complexdata_stringop/ComplexData;)V`:
+;[0m
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:38:37,109 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "8103c3dcc0e1271746401ccd458598ceb3e83cf68b2463049e5aaa4f6e16b53b"
+[0m
+ERROR   | 2023-02-20 06:38:37,156 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:38:37,168 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "8103c3dcc0e1271746401ccd458598ceb3e83cf68b2463049e5aaa4f6e16b53b"
+symbol: "Java_org_arguslab_native_1method_1overloading_MainActivity_send___3I_3Ljava_lang_String_2Ljava_lang_String_2D"
+[0m
+INFO    | 2023-02-20 06:38:37,220 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "8103c3dcc0e1271746401ccd458598ceb3e83cf68b2463049e5aaa4f6e16b53b"
+symbol: "Java_org_arguslab_native_1method_1overloading_MainActivity_send__I"
+[0m
+INFO    | 2023-02-20 06:38:37,261 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "8103c3dcc0e1271746401ccd458598ceb3e83cf68b2463049e5aaa4f6e16b53b"
+symbol: "Java_org_arguslab_native_1method_1overloading_MainActivity_send___3I_3Ljava_lang_String_2Ljava_lang_String_2D"
+[0m
+INFO    | 2023-02-20 06:38:37,301 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "3d6a4402753eed5ea3171d38cf2ad05dce71c43587759f91a8e8c03f47beab91"
+component_name: "org.arguslab.native_method_overloading.MainActivity"
+depth: 3
+so_digest: "8103c3dcc0e1271746401ccd458598ceb3e83cf68b2463049e5aaa4f6e16b53b"
+jni_func: "Java_org_arguslab_native_1method_1overloading_MainActivity_send___3I_3Ljava_lang_String_2Ljava_lang_String_2D"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_method_overloading"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      primitive_type {
+        type: INT
+      }
+      dimension: 1
+    }
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+      dimension: 1
+    }
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    param_types {
+      primitive_type {
+        type: DOUBLE
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:38:37,387 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:38:37,387 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_method_overloading/MainActivity;.send:([I[Ljava/lang/String;Ljava/lang/String;D)V`:
+;[0m
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:38:46,274 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+[0m
+ERROR   | 2023-02-20 06:38:46,329 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:38:46,342 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+symbol: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_leakImei"
+[0m
+INFO    | 2023-02-20 06:38:46,405 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+symbol: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_propagateImei"
+[0m
+INFO    | 2023-02-20 06:38:46,455 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+symbol: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_propagateImei"
+[0m
+INFO    | 2023-02-20 06:38:46,503 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "ad5b1bdb365ad61544f0469955e4d36d8857bc4fd40f04b677ebce20754737c9"
+component_name: "org.arguslab.native_multiple_interactions.MainActivity"
+depth: 3
+so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+jni_func: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_propagateImei"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_multiple_interactions"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "propagateImei"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_multiple_interactions"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "Data"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:38:46,611 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:38:46,636 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:38:46,645 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_multiple_interactions/Data[0m
+INFO    | 2023-02-20 06:38:46,645 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: str[0m
+INFO    | 2023-02-20 06:38:46,645 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:38:46,669 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectField[0m
+INFO    | 2023-02-20 06:38:46,696 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:38:46,704 | [33mnativedroid.jni_native_interface[0m | [33mClass: org/arguslab/native_multiple_interactions/MainActivity[0m
+INFO    | 2023-02-20 06:38:46,729 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:38:46,736 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_multiple_interactions/MainActivity[0m
+INFO    | 2023-02-20 06:38:46,736 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: toNativeAgain[0m
+INFO    | 2023-02-20 06:38:46,736 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)V[0m
+INFO    | 2023-02-20 06:38:46,764 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallVoidMethod[0m
+INFO    | 2023-02-20 06:38:46,799 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+[0m
+ERROR   | 2023-02-20 06:38:46,848 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:38:46,862 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+symbol: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_leakImei"
+[0m
+INFO    | 2023-02-20 06:38:46,919 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+symbol: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_propagateImei"
+[0m
+INFO    | 2023-02-20 06:38:46,965 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+symbol: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_leakImei"
+[0m
+INFO    | 2023-02-20 06:38:47,009 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "ad5b1bdb365ad61544f0469955e4d36d8857bc4fd40f04b677ebce20754737c9"
+component_name: "org.arguslab.native_multiple_interactions.MainActivity"
+depth: 1
+so_digest: "e2b0020e0c31b4a96cc7af56343dbbe17a3b719134bab047c68d7439017ad5fb"
+jni_func: "Java_org_arguslab_native_1multiple_1interactions_MainActivity_leakImei"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_multiple_interactions"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "leakImei"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:38:47,241 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:38:47,264 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:47,289 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:38:47,307 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_multiple_interactions/MainActivity;.leakImei:(Ljava/lang/String;)V -> _SINK_ 1[0m
+INFO    | 2023-02-20 06:38:47,307 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_multiple_interactions/MainActivity;.leakImei:(Ljava/lang/String;)V`:
+;[0m
+INFO    | 2023-02-20 06:38:47,339 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_multiple_interactions/MainActivity;.propagateImei:(Lorg/arguslab/native_multiple_interactions/Data;)V -> _SINK_ 1.str[0m
+INFO    | 2023-02-20 06:38:47,339 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_multiple_interactions/MainActivity;.propagateImei:(Lorg/arguslab/native_multiple_interactions/Data;)V`:
+;[0m
+Taint path:
+api_source: #L01f49e.  call temp:= `getDeviceId`(v1) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01f4cc.  call `propagateImei`(v0, v1) @signature `Lorg/arguslab/native_multiple_interactions/MainActivity;.propagateImei:(Lorg/arguslab/native_multiple_interactions/Data;)V` @kind virtual;
+#L01f49e.  call temp:= `getDeviceId`(v1) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01f4b0.  call `toNative`(v0, v2, v1) @signature `Lorg/arguslab/native_multiple_interactions/MainActivity;.toNative:(Lorg/arguslab/native_multiple_interactions/Data;Ljava/lang/String;)V` @kind direct;
+	-> Entry@Lorg/arguslab/native_multiple_interactions/MainActivity;.toNative:(Lorg/arguslab/native_multiple_interactions/Data;Ljava/lang/String;)V param: 2
+	-> #L01f4cc.  call `propagateImei`(v0, v1) @signature `Lorg/arguslab/native_multiple_interactions/MainActivity;.propagateImei:(Lorg/arguslab/native_multiple_interactions/Data;)V` @kind virtual;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:38:56,043 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "2d3c30432605c3cb333b89806d3dd1c1fd104c9d1ab7513deee1cddf53338a4a"
+[0m
+ERROR   | 2023-02-20 06:38:56,095 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:38:56,106 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "2d3c30432605c3cb333b89806d3dd1c1fd104c9d1ab7513deee1cddf53338a4a"
+symbol: "Java_org_arguslab_native_1set_1field_1from_1arg_MainActivity_setField"
+[0m
+INFO    | 2023-02-20 06:38:56,162 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "2d3c30432605c3cb333b89806d3dd1c1fd104c9d1ab7513deee1cddf53338a4a"
+symbol: "Java_org_arguslab_native_1set_1field_1from_1arg_MainActivity_setField"
+[0m
+INFO    | 2023-02-20 06:38:56,212 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "f6c10b89c9a67d6414ffcdf8eb0f7ba8aba2d7ba0b8d782acfe60de98da11b16"
+component_name: "org.arguslab.native_set_field_from_arg.MainActivity"
+depth: 3
+so_digest: "2d3c30432605c3cb333b89806d3dd1c1fd104c9d1ab7513deee1cddf53338a4a"
+jni_func: "Java_org_arguslab_native_1set_1field_1from_1arg_MainActivity_setField"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_set_field_from_arg"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "setField"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_set_field_from_arg"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    param_types {
+      class_type {
+        package {
+          name: "native_set_field_from_arg"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "Foo"
+      }
+    }
+    return_java_type {
+      class_type {
+        package {
+          name: "native_set_field_from_arg"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "Foo"
+      }
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:38:56,322 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:38:56,346 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:38:56,358 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_set_field_from_arg/ComplexData[0m
+INFO    | 2023-02-20 06:38:56,358 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: foo[0m
+INFO    | 2023-02-20 06:38:56,358 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Lorg/arguslab/native_set_field_from_arg/Foo;[0m
+INFO    | 2023-02-20 06:38:56,386 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetObjectField[0m
+INFO    | 2023-02-20 06:38:56,407 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectField[0m
+INFO    | 2023-02-20 06:38:56,425 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:38:56,426 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_set_field_from_arg/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_arg/ComplexData;Lorg/arguslab/native_set_field_from_arg/Foo;)Lorg/arguslab/native_set_field_from_arg/Foo;`:
+  arg:1.foo = arg:2
+  ret = arg:1.foo
+;[0m
+Taint path:
+api_source: #L01a6ae.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01a708.  call temp:= `d`(v0, v4) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L01a6ae.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01a6d4.  call `setData`(v2, v0) @signature `Lorg/arguslab/native_set_field_from_arg/Foo;.setData:(Ljava/lang/String;)V` @kind virtual;
+	-> #L01a6da.  call temp:= `setField`(v4, v1, v2) @signature `Lorg/arguslab/native_set_field_from_arg/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_arg/ComplexData;Lorg/arguslab/native_set_field_from_arg/Foo;)Lorg/arguslab/native_set_field_from_arg/Foo;` @kind virtual;
+	-> #L01a6e6.  call temp:= `getFoo`(v1) @signature `Lorg/arguslab/native_set_field_from_arg/ComplexData;.getFoo:()Lorg/arguslab/native_set_field_from_arg/Foo;` @kind virtual;
+	-> #L01a6ee.  call temp:= `getData`(v1) @signature `Lorg/arguslab/native_set_field_from_arg/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L01a6f6.  call temp:= `d`(v0, v1) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+	-> #L01a700.  call temp:= `getData`(v4) @signature `Lorg/arguslab/native_set_field_from_arg/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L01a708.  call temp:= `d`(v0, v4) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+Taint path:
+api_source: #L01a6ae.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01a6f6.  call temp:= `d`(v0, v1) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L01a6ae.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01a6d4.  call `setData`(v2, v0) @signature `Lorg/arguslab/native_set_field_from_arg/Foo;.setData:(Ljava/lang/String;)V` @kind virtual;
+	-> #L01a6da.  call temp:= `setField`(v4, v1, v2) @signature `Lorg/arguslab/native_set_field_from_arg/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_arg/ComplexData;Lorg/arguslab/native_set_field_from_arg/Foo;)Lorg/arguslab/native_set_field_from_arg/Foo;` @kind virtual;
+	-> #L01a6e6.  call temp:= `getFoo`(v1) @signature `Lorg/arguslab/native_set_field_from_arg/ComplexData;.getFoo:()Lorg/arguslab/native_set_field_from_arg/Foo;` @kind virtual;
+	-> #L01a6ee.  call temp:= `getData`(v1) @signature `Lorg/arguslab/native_set_field_from_arg/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L01a6f6.  call temp:= `d`(v0, v1) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:39:05,656 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "e198728e9ce9368ec38ac49696aa8268bc5894758b7d711b989fa71f4117f80f"
+[0m
+ERROR   | 2023-02-20 06:39:05,706 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:39:05,722 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e198728e9ce9368ec38ac49696aa8268bc5894758b7d711b989fa71f4117f80f"
+symbol: "Java_org_arguslab_native_1source_MainActivity_getImei"
+[0m
+INFO    | 2023-02-20 06:39:05,778 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "e198728e9ce9368ec38ac49696aa8268bc5894758b7d711b989fa71f4117f80f"
+symbol: "Java_org_arguslab_native_1source_MainActivity_getImei"
+[0m
+INFO    | 2023-02-20 06:39:05,831 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "0f42487fc65800d4979e88d07539f922f790544c8d3c08e9c3576c39101c8690"
+component_name: "org.arguslab.native_source.MainActivity"
+depth: 3
+so_digest: "e198728e9ce9368ec38ac49696aa8268bc5894758b7d711b989fa71f4117f80f"
+jni_func: "Java_org_arguslab_native_1source_MainActivity_getImei"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_source"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "getImei"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "content"
+          parent {
+            name: "android"
+          }
+        }
+        name: "Context"
+      }
+    }
+    return_java_type {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:39:05,943 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:39:05,951 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:39:05,979 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:39:05,990 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:39:05,990 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getSystemService[0m
+INFO    | 2023-02-20 06:39:05,990 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/Object;[0m
+INFO    | 2023-02-20 06:39:06,018 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticFieldID[0m
+INFO    | 2023-02-20 06:39:06,025 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:39:06,025 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: TELEPHONY_SERVICE[0m
+INFO    | 2023-02-20 06:39:06,025 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:39:06,050 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticObjectField[0m
+INFO    | 2023-02-20 06:39:06,078 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:39:06,104 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:39:06,110 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:39:06,135 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:39:06,142 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:39:06,142 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getDeviceId[0m
+INFO    | 2023-02-20 06:39:06,142 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:39:06,168 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:39:06,191 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_source/MainActivity;.getImei:(Landroid/content/Context;)Ljava/lang/String; -> _SOURCE_[0m
+INFO    | 2023-02-20 06:39:06,191 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_source/MainActivity;.getImei:(Landroid/content/Context;)Ljava/lang/String;`:
+  ret = java.lang.String@~
+;[0m
+Taint path:
+api_source: #L125184.  call temp:= `getImei`(v1) @signature `Lorg/arguslab/native_source/MainActivity;.getImei:(Landroid/content/Context;)Ljava/lang/String;` @kind static;
+	-> api_sink: #L125190.  call temp:= `i`(v0, v1) @signature `Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L125184.  call temp:= `getImei`(v1) @signature `Lorg/arguslab/native_source/MainActivity;.getImei:(Landroid/content/Context;)Ljava/lang/String;` @kind static;
+	-> #L125190.  call temp:= `i`(v0, v1) @signature `Landroid/util/Log;.i:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:39:14,863 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "78eace72586440025ec624b295c849c56e0de48f664557596c4c1643296931c1"
+[0m
+INFO    | 2023-02-20 06:39:14,916 | [34mRegisterNativeMethods[0m | [34mDynamic register resolution begins.[0m
+INFO    | 2023-02-20 06:39:14,979 | [36mnativedroid.jni_invoke_interface[0m | [36mJNIInvokeInterface SimProcedure: GetEnv[0m
+INFO    | 2023-02-20 06:39:15,048 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:39:15,059 | [33mnativedroid.jni_native_interface[0m | [33mClass: org/arguslab/native_leak_dynamic_register/MainActivity[0m
+INFO    | 2023-02-20 06:39:15,123 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: RegisterNatives[0m
+WARNING | 2023-02-20 06:39:15,124 | [34mangr.storage.paged_memory[0m | [34mNothing left of the memory object to store in SimPage.[0m
+INFO    | 2023-02-20 06:39:15,182 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "125ccaf1b85bb003454cea307733fcd4906e01f44e879e860d6de8832ec921ff"
+component_name: "org.arguslab.native_leak_dynamic_register.MainActivity"
+depth: 3
+so_digest: "78eace72586440025ec624b295c849c56e0de48f664557596c4c1643296931c1"
+addr: 1797
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_leak_dynamic_register"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:39:15,315 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:39:15,338 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:15,366 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:15,525 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_leak_dynamic_register/MainActivity;.send:(Ljava/lang/String;)V -> _SINK_ 1[0m
+INFO    | 2023-02-20 06:39:15,525 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_leak_dynamic_register/MainActivity;.send:(Ljava/lang/String;)V`:
+;[0m
+Taint path:
+api_source: #L01a45e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01a466.  call `send`(v2) @signature `Lorg/arguslab/native_leak_dynamic_register/MainActivity;.send:(Ljava/lang/String;)V` @kind static;
+#L01a45e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01a466.  call `send`(v2) @signature `Lorg/arguslab/native_leak_dynamic_register/MainActivity;.send:(Ljava/lang/String;)V` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:39:24,307 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "f367eb98f794f8f89986f8d08a7cfefe68ca9ead27de79c04c433dd54c952bc1"
+symbol: "android_main"
+[0m
+INFO    | 2023-02-20 06:39:24,405 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer AnalyseNativeActivity: apk_digest: "c1b16fadbcf7aa035393ac5e734055ec5b3a479f7bc4c841939eff78b7072a4d"
+component_name: "android.app.NativeActivity"
+so_digest: "f367eb98f794f8f89986f8d08a7cfefe68ca9ead27de79c04c433dd54c952bc1"
+[0m
+WARNING | 2023-02-20 06:39:24,731 | [34mangr.engines.successors[0m | [34mExit state has over 256 possible solutions. Likely unconstrained; skipping. <BV32 global_7fff0018_956_32{UNINITIALIZED}>[0m
+WARNING | 2023-02-20 06:39:24,889 | [34mangr.engines.successors[0m | [34mExit state has over 256 possible solutions. Likely unconstrained; skipping. <BV32 global_7fff0018_978_32{UNINITIALIZED}>[0m
+INFO    | 2023-02-20 06:39:25,403 | [32mnative_pure_model[0m | [32mCALLBACK: {'onAppCmd': 'mem_800004_1065_32', 'onInputEvent': 'mem_800008_1057_32'}[0m
+INFO    | 2023-02-20 06:39:25,430 | [32mnativedroid[0m | [32mandroid_main[0m
+INFO    | 2023-02-20 06:39:25,512 | [36mnativedroid.jni_invoke_interface[0m | [36mJNIInvokeInterface SimProcedure: AttachCurrentThread[0m
+INFO    | 2023-02-20 06:39:25,538 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:39:25,562 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:39:25,571 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/app/Activity[0m
+INFO    | 2023-02-20 06:39:25,571 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getIntent[0m
+INFO    | 2023-02-20 06:39:25,571 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Landroid/content/Intent;[0m
+INFO    | 2023-02-20 06:39:25,599 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:39:25,635 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:39:25,659 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:39:25,669 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Intent[0m
+INFO    | 2023-02-20 06:39:25,669 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getStringExtra[0m
+INFO    | 2023-02-20 06:39:25,669 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:39:25,697 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewStringUTF[0m
+INFO    | 2023-02-20 06:39:25,699 | [33mnativedroid.jni_native_interface[0m | [33mString: data[0m
+INFO    | 2023-02-20 06:39:25,725 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:39:25,771 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:39:25,793 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:25,823 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:26,126 | [36mAnnotationBasedAnalysis[0m | [36mFound taint in function Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V.[0m
+INFO    | 2023-02-20 06:39:26,128 | [36mAnnotationBasedAnalysis[0m | [36mRegistered Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V as taint.[0m
+INFO    | 2023-02-20 06:39:26,138 | [32mnativedroid[0m | [32m[Total Instructions] 534[0m
+Taint path:
+api_source: #L01a42a.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> : Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+#L01a42a.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01a444.  call temp:= `putExtra`(v1, v2, v0) @signature `Landroid/content/Intent;.putExtra:(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;` @kind virtual;
+	-> #L01a44a.  call `startActivity`(v3, v1) @signature `Lorg/arguslab/icc_javatonative/MainActivity;.startActivity:(Landroid/content/Intent;)V` @kind virtual;
+	-> Entry@Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:39:35,034 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "316301f34b1c7bbc0002d95c9b7ee015b89792b31d86dbe5515c5a958c3a08eb"
+[0m
+ERROR   | 2023-02-20 06:39:35,085 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:39:35,098 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "316301f34b1c7bbc0002d95c9b7ee015b89792b31d86dbe5515c5a958c3a08eb"
+symbol: "Java_org_arguslab_native_1set_1field_1from_1arg_1field_MainActivity_setField"
+[0m
+INFO    | 2023-02-20 06:39:35,148 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "316301f34b1c7bbc0002d95c9b7ee015b89792b31d86dbe5515c5a958c3a08eb"
+symbol: "Java_org_arguslab_native_1set_1field_1from_1arg_1field_MainActivity_setField"
+[0m
+INFO    | 2023-02-20 06:39:35,196 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "721c58e847935e3e349d81cd3ea1be19acd4f05508422c7df4cca5b84e76697d"
+component_name: "org.arguslab.native_set_field_from_arg_field.MainActivity"
+depth: 3
+so_digest: "316301f34b1c7bbc0002d95c9b7ee015b89792b31d86dbe5515c5a958c3a08eb"
+jni_func: "Java_org_arguslab_native_1set_1field_1from_1arg_1field_MainActivity_setField"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_set_field_from_arg_field"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "setField"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_set_field_from_arg_field"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    param_types {
+      class_type {
+        package {
+          name: "native_set_field_from_arg_field"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    return_java_type {
+      class_type {
+        package {
+          name: "native_set_field_from_arg_field"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "Foo"
+      }
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:39:35,305 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:39:35,329 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:39:35,341 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_set_field_from_arg_field/ComplexData[0m
+INFO    | 2023-02-20 06:39:35,341 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: foo[0m
+INFO    | 2023-02-20 06:39:35,341 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Lorg/arguslab/native_set_field_from_arg_field/Foo;[0m
+INFO    | 2023-02-20 06:39:35,372 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectField[0m
+INFO    | 2023-02-20 06:39:35,400 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetObjectField[0m
+INFO    | 2023-02-20 06:39:35,422 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectField[0m
+INFO    | 2023-02-20 06:39:35,438 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:39:35,438 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_set_field_from_arg_field/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_arg_field/ComplexData;Lorg/arguslab/native_set_field_from_arg_field/ComplexData;)Lorg/arguslab/native_set_field_from_arg_field/Foo;`:
+  arg:1.foo = arg:2.foo
+  ret = arg:1.foo
+;[0m
+Taint path:
+api_source: #L019c8e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L019ce6.  call temp:= `d`(v1, v0) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L019c8e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L019cbe.  call `setData`(v2, v4) @signature `Lorg/arguslab/native_set_field_from_arg_field/Foo;.setData:(Ljava/lang/String;)V` @kind virtual;
+	-> #L019cc4.  call `setFoo`(v1, v2) @signature `Lorg/arguslab/native_set_field_from_arg_field/ComplexData;.setFoo:(Lorg/arguslab/native_set_field_from_arg_field/Foo;)V` @kind virtual;
+	-> #L019cca.  call temp:= `setField`(v0, v1) @signature `Lorg/arguslab/native_set_field_from_arg_field/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_arg_field/ComplexData;Lorg/arguslab/native_set_field_from_arg_field/ComplexData;)Lorg/arguslab/native_set_field_from_arg_field/Foo;` @kind static;
+	-> #L019cd6.  call temp:= `getFoo`(v0) @signature `Lorg/arguslab/native_set_field_from_arg_field/ComplexData;.getFoo:()Lorg/arguslab/native_set_field_from_arg_field/Foo;` @kind virtual;
+	-> #L019cde.  call temp:= `getData`(v0) @signature `Lorg/arguslab/native_set_field_from_arg_field/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L019ce6.  call temp:= `d`(v1, v0) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+Taint path:
+api_source: #L019c8e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L019cf8.  call temp:= `d`(v0, v4) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+#L019c8e.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L019cbe.  call `setData`(v2, v4) @signature `Lorg/arguslab/native_set_field_from_arg_field/Foo;.setData:(Ljava/lang/String;)V` @kind virtual;
+	-> #L019cc4.  call `setFoo`(v1, v2) @signature `Lorg/arguslab/native_set_field_from_arg_field/ComplexData;.setFoo:(Lorg/arguslab/native_set_field_from_arg_field/Foo;)V` @kind virtual;
+	-> #L019cca.  call temp:= `setField`(v0, v1) @signature `Lorg/arguslab/native_set_field_from_arg_field/MainActivity;.setField:(Lorg/arguslab/native_set_field_from_arg_field/ComplexData;Lorg/arguslab/native_set_field_from_arg_field/ComplexData;)Lorg/arguslab/native_set_field_from_arg_field/Foo;` @kind static;
+	-> #L019cd6.  call temp:= `getFoo`(v0) @signature `Lorg/arguslab/native_set_field_from_arg_field/ComplexData;.getFoo:()Lorg/arguslab/native_set_field_from_arg_field/Foo;` @kind virtual;
+	-> #L019cde.  call temp:= `getData`(v0) @signature `Lorg/arguslab/native_set_field_from_arg_field/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L019ce6.  call temp:= `d`(v1, v0) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+	-> #L019cf0.  call temp:= `getData`(v4) @signature `Lorg/arguslab/native_set_field_from_arg_field/Foo;.getData:()Ljava/lang/String;` @kind virtual;
+	-> #L019cf8.  call temp:= `d`(v0, v4) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:39:44,259 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "707f3cde1c4206c8bb4d8808f14f9ec4c9b6474378f66b0797e6db1c94ad82af"
+[0m
+ERROR   | 2023-02-20 06:39:44,307 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:39:44,318 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "8f04c150f00cd9c29fb1927e82ebde8dd88a7e2860d7c29ea8696a9f0176e4fd"
+[0m
+ERROR   | 2023-02-20 06:39:44,368 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:39:44,382 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "707f3cde1c4206c8bb4d8808f14f9ec4c9b6474378f66b0797e6db1c94ad82af"
+symbol: "Java_org_arguslab_native_1multiple_1libraries_MainActivity_fooSend"
+[0m
+INFO    | 2023-02-20 06:39:44,431 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "8f04c150f00cd9c29fb1927e82ebde8dd88a7e2860d7c29ea8696a9f0176e4fd"
+symbol: "Java_org_arguslab_native_1multiple_1libraries_MainActivity_fooSend"
+[0m
+INFO    | 2023-02-20 06:39:44,489 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "707f3cde1c4206c8bb4d8808f14f9ec4c9b6474378f66b0797e6db1c94ad82af"
+symbol: "Java_org_arguslab_native_1multiple_1libraries_MainActivity_masterSend"
+[0m
+INFO    | 2023-02-20 06:39:44,538 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "8f04c150f00cd9c29fb1927e82ebde8dd88a7e2860d7c29ea8696a9f0176e4fd"
+symbol: "Java_org_arguslab_native_1multiple_1libraries_MainActivity_masterSend"
+[0m
+INFO    | 2023-02-20 06:39:44,586 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "707f3cde1c4206c8bb4d8808f14f9ec4c9b6474378f66b0797e6db1c94ad82af"
+symbol: "Java_org_arguslab_native_1multiple_1libraries_MainActivity_masterSend"
+[0m
+INFO    | 2023-02-20 06:39:44,640 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "95e829a82a32a1d78e5e84a464bd7290009a402218726a26d61434aec98d2070"
+component_name: "org.arguslab.native_multiple_libraries.MainActivity"
+depth: 3
+so_digest: "707f3cde1c4206c8bb4d8808f14f9ec4c9b6474378f66b0797e6db1c94ad82af"
+jni_func: "Java_org_arguslab_native_1multiple_1libraries_MainActivity_masterSend"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_multiple_libraries"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "masterSend"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:39:44,765 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:39:44,787 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:44,811 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:44,830 | [32mnativedroid[0m | [32m[Taint Analysis]
+Lorg/arguslab/native_multiple_libraries/MainActivity;.masterSend:(Ljava/lang/String;)V -> _SINK_ 1[0m
+INFO    | 2023-02-20 06:39:44,830 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_multiple_libraries/MainActivity;.masterSend:(Ljava/lang/String;)V`:
+;[0m
+Taint path:
+api_source: #L01f3e2.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> api_sink: #L01f3ea.  call `masterSend`(v2) @signature `Lorg/arguslab/native_multiple_libraries/MainActivity;.masterSend:(Ljava/lang/String;)V` @kind static;
+#L01f3e2.  call temp:= `getDeviceId`(v0) @signature `Landroid/telephony/TelephonyManager;.getDeviceId:()Ljava/lang/String;` @kind virtual;
+	-> #L01f3ea.  call `masterSend`(v2) @signature `Lorg/arguslab/native_multiple_libraries/MainActivity;.masterSend:(Ljava/lang/String;)V` @kind static;
+
+INFO    | 2023-02-20 06:39:54,041 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "ca1e84c7012829743f4e67ca7d4511d17384d2b7ce4f988e3201f92bc38a4e09"
+symbol: "android_main"
+[0m
+INFO    | 2023-02-20 06:39:54,171 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer AnalyseNativeActivity: apk_digest: "c194fc307829c0fdca05b0aefd3a20777e0ce1494dc8d12a17b02729bb757bdf"
+component_name: "android.app.NativeActivity"
+so_digest: "ca1e84c7012829743f4e67ca7d4511d17384d2b7ce4f988e3201f92bc38a4e09"
+[0m
+INFO    | 2023-02-20 06:39:54,989 | [32mnative_pure_model[0m | [32mCALLBACK: {'onAppCmd': 7069L, 'onInputEvent': 6869L}[0m
+INFO    | 2023-02-20 06:39:55,016 | [32mnativedroid[0m | [32mandroid_main[0m
+INFO    | 2023-02-20 06:39:56,275 | [36mnativedroid.jni_invoke_interface[0m | [36mJNIInvokeInterface SimProcedure: AttachCurrentThread[0m
+INFO    | 2023-02-20 06:39:56,446 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:39:56,452 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/content/Context[0m
+INFO    | 2023-02-20 06:39:56,494 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:39:56,505 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:39:56,505 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getSystemService[0m
+INFO    | 2023-02-20 06:39:56,505 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: (Ljava/lang/String;)Ljava/lang/Object;[0m
+INFO    | 2023-02-20 06:39:56,557 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticFieldID[0m
+INFO    | 2023-02-20 06:39:56,565 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/content/Context[0m
+INFO    | 2023-02-20 06:39:56,565 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: TELEPHONY_SERVICE[0m
+INFO    | 2023-02-20 06:39:56,565 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:39:56,609 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStaticObjectField[0m
+INFO    | 2023-02-20 06:39:56,663 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:39:56,744 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: FindClass[0m
+INFO    | 2023-02-20 06:39:56,750 | [33mnativedroid.jni_native_interface[0m | [33mClass: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:39:56,760 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:56,825 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetMethodID[0m
+INFO    | 2023-02-20 06:39:56,833 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: android/telephony/TelephonyManager[0m
+INFO    | 2023-02-20 06:39:56,833 | [33mnativedroid.jni_native_interface[0m | [33mMETHOD: getDeviceId[0m
+INFO    | 2023-02-20 06:39:56,833 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: ()Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:39:56,939 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: CallObjectMethod[0m
+INFO    | 2023-02-20 06:39:57,044 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetStringUTFChars[0m
+INFO    | 2023-02-20 06:39:57,078 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:57,129 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:39:57,320 | [36mAnnotationBasedAnalysis[0m | [36mFound taint in function Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V.[0m
+INFO    | 2023-02-20 06:39:57,322 | [36mAnnotationBasedAnalysis[0m | [36mRegistered Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V as taint.[0m
+INFO    | 2023-02-20 06:39:57,365 | [32mnativedroid[0m | [32m[Total Instructions] 871[0m
+Taint path:
+api_source: Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+	-> : Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+Entry@Landroid/app/NativeActivity;.onCreate:(Landroid/os/Bundle;)V
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:40:05,968 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "5b03653249864d7b103317f4489cd5021102cb88ab40719c622e79404ba5eeef"
+[0m
+ERROR   | 2023-02-20 06:40:06,013 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:40:06,025 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "5b03653249864d7b103317f4489cd5021102cb88ab40719c622e79404ba5eeef"
+symbol: "Java_org_arguslab_native_1source_1clean_MainActivity_sourceClean"
+[0m
+INFO    | 2023-02-20 06:40:06,077 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "5b03653249864d7b103317f4489cd5021102cb88ab40719c622e79404ba5eeef"
+symbol: "Java_org_arguslab_native_1source_1clean_MainActivity_sourceClean"
+[0m
+INFO    | 2023-02-20 06:40:06,125 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "e425d251a132b4c5cc576ec417881064d71f4e5bf0bed67b681701b7af9cd697"
+component_name: "org.arguslab.native_source_clean.MainActivity"
+depth: 3
+so_digest: "5b03653249864d7b103317f4489cd5021102cb88ab40719c622e79404ba5eeef"
+jni_func: "Java_org_arguslab_native_1source_1clean_MainActivity_sourceClean"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_source_clean"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "sourceClean"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "native_source_clean"
+          parent {
+            name: "arguslab"
+            parent {
+              name: "org"
+            }
+          }
+        }
+        name: "ComplexData"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:40:06,235 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetObjectClass[0m
+INFO    | 2023-02-20 06:40:06,260 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: GetFieldID[0m
+INFO    | 2023-02-20 06:40:06,270 | [33mnativedroid.jni_native_interface[0m | [33mCLASS: org/arguslab/native_source_clean/ComplexData[0m
+INFO    | 2023-02-20 06:40:06,270 | [33mnativedroid.jni_native_interface[0m | [33mFIELD: data[0m
+INFO    | 2023-02-20 06:40:06,270 | [33mnativedroid.jni_native_interface[0m | [33mSIGN: Ljava/lang/String;[0m
+INFO    | 2023-02-20 06:40:06,499 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: NewStringUTF[0m
+INFO    | 2023-02-20 06:40:06,504 | [33mnativedroid.jni_native_interface[0m | [33mString: Clean the data in the native[0m
+INFO    | 2023-02-20 06:40:06,531 | [33mnativedroid.jni_native_interface[0m | [33mJNINativeInterface SimProcedure: SetObjectField[0m
+INFO    | 2023-02-20 06:40:06,542 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:40:06,542 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_source_clean/MainActivity;.sourceClean:(Lorg/arguslab/native_source_clean/ComplexData;)V`:
+  arg:1.data = java.lang.String@~
+;[0m
+
+WARNING@MethodGenerator:Cannot find constructor for android.app.ContextImpl
+WARNING@MethodGenerator:Cannot find constructor for [I
+WARNING@MethodGenerator:Cannot find constructor for [Ljava.lang.String;
+INFO    | 2023-02-20 06:40:15,182 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GetDynamicRegisterMap: so_digest: "2c276ff8dd5aad91e146b985119b1f29a515929bfcde655c635e869c576c5ac5"
+[0m
+ERROR   | 2023-02-20 06:40:15,230 | [34mRegisterNativeMethods[0m | [34mJNI_OnLoad method doesn't exist. It should be some tricks that obfuscate the symbol.[0m
+INFO    | 2023-02-20 06:40:15,242 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "2c276ff8dd5aad91e146b985119b1f29a515929bfcde655c635e869c576c5ac5"
+symbol: "Java_org_arguslab_native_1noleak_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:40:15,296 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer HasSymbol: so_digest: "2c276ff8dd5aad91e146b985119b1f29a515929bfcde655c635e869c576c5ac5"
+symbol: "Java_org_arguslab_native_1noleak_MainActivity_send"
+[0m
+INFO    | 2023-02-20 06:40:15,346 | [31mnativedroid.server.NativeDroidServer[0m | [31mServer GenSummary: apk_digest: "c08d6cf65a2dad50af0443eeff39310eac5860038115031fdc21693a65f405e9"
+component_name: "org.arguslab.native_noleak.MainActivity"
+depth: 3
+so_digest: "2c276ff8dd5aad91e146b985119b1f29a515929bfcde655c635e869c576c5ac5"
+jni_func: "Java_org_arguslab_native_1noleak_MainActivity_send"
+method_signature {
+  owner {
+    class_type {
+      package {
+        name: "native_noleak"
+        parent {
+          name: "arguslab"
+          parent {
+            name: "org"
+          }
+        }
+      }
+      name: "MainActivity"
+    }
+  }
+  name: "send"
+  proto {
+    param_types {
+      class_type {
+        package {
+          name: "lang"
+          parent {
+            name: "java"
+          }
+        }
+        name: "String"
+      }
+    }
+    return_void_type {
+    }
+  }
+}
+[0m
+INFO    | 2023-02-20 06:40:15,453 | [32mAndroidLogPrint[0m | [32mSimProcedure: __android_log_print[0m
+INFO    | 2023-02-20 06:40:15,467 | [32mnativedroid[0m | [32m[Taint Analysis]
+[0m
+INFO    | 2023-02-20 06:40:15,467 | [32mnativedroid[0m | [32m[SafSu Analysis]
+`Lorg/arguslab/native_noleak/MainActivity;.send:(Ljava/lang/String;)V`:
+;[0m
+

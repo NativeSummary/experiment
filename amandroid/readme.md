@@ -1,0 +1,1 @@
+为了增加额外的source和sink，但是它的是全局的amandroid_stash里，直接把几个重要的source和sink放过去。

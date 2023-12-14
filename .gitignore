@@ -1,0 +1,13 @@
+# common
+**/__pycache__
+
+# analysis results
+**/*-results
+*.pickel
+*.obj.py
+*.pdf
+**/docker_stats.progress
+**/docker_stats.progress.json
+
+# current folder specific
+mem_time_info.json
